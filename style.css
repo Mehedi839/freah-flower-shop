@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header start */
@@ -65,7 +65,7 @@ p {
 
 .flower-flex-contain {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 50px;
 
 }
@@ -98,6 +98,15 @@ p {
 
 .flower-img-3 {
     margin-top: 20px;
+}
+
+.flower-underline-text-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pera-underline {
+    text-decoration: underline;
 }
 
 /* Our Featured  end  */
